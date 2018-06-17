@@ -1,0 +1,30 @@
+{
+  "name": "reactxp-i18n",
+  "version": "0.0.1",
+  "description": "Plugin for ReactXP that provides i18n",
+  "author": "Simone Locci <simonelocci88@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "npm run tslint && tsc",
+    "tslint": "tslint --project tsconfig.json -r tslint.json -r ./node_modules/tslint-microsoft-contrib --fix || true"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.80",
+    "@types/react-native": "^0.55.19",
+    "i18n-js": "^3.0.8",
+    "lodash": "^4.17.4",
+    "react-native-i18n": "^2.0.12",
+    "reactxp": "^1.1.0"
+  },
+  "peerDependencies": {
+    "react-dom": "16.2.0",
+    "react-native": "^0.51.0",
+    "react-native-windows": "^0.51.0"
+  },
+  "devDependencies": {
+    "tslint": "5.8.0",
+    "tslint-microsoft-contrib": "5.0.0",
+    "typescript": "2.7.2"
+  },
+  "types": "dist/web/PluginBase.d.ts"
+}

@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "noResolve": false,
+    "jsx": "react",
+    "module": "commonjs",
+    "target": "es5",
+    "experimentalDecorators": true,
+    "outDir": "dist/",
+    "skipLibCheck": true,
+    "lib": [
+      "es5",
+      "es2015",
+      "dom"
+    ],
+    "types": [
+      "lodash",
+      "react",
+      "react-dom",
+      "react-native"
+    ]
+  },
+  "filesGlob": [
+    "src/**/*{ts,tsx}"
+  ],
+  "exclude": [
+    "dist",
+    "node_modules"
+  ]
+}
