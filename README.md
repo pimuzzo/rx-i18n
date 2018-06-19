@@ -5,7 +5,7 @@ This module uses [react-native-i18n](https://github.com/AlexanderZaytsev/react-n
 
 ## Install
 
-`yarn add` or `npm install`
+`yarn add reactxp-i18n` or `npm install reactxp-i18n`
 
 ## Example
 ```
