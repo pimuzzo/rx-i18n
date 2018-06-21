@@ -7,7 +7,9 @@ This module uses [react-native-i18n](https://github.com/AlexanderZaytsev/react-n
 
 `yarn add reactxp-i18n` or `npm install reactxp-i18n`
 
-## Example
+## Examples
+
+### Basic usage
 ```
 import { default as RXI18n } from 'reactxp-i18n';
 
@@ -29,3 +31,15 @@ const translations = {
 ```
 
 You can pass additional parameters in `customization` object to enforce some properties as `{locale: 'en'}` or for value interpolation.
+
+### String locale
+
+If you need the string that represents the user's locale you can use
+
+```
+import { getCurrentLocale } from 'reactxp-i18n';
+
+const locale = getCurrentLocale();
+
+```
+
