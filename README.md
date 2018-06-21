@@ -34,7 +34,7 @@ You can pass additional parameters in `customization` object to enforce some pro
 
 ### String locale
 
-If you need the string that represents the user's language you can use
+If you need the string that represents the user's locale you can use
 
 ```
 import { getCurrentLocale } from 'reactxp-i18n';
