@@ -8,6 +8,20 @@
     "build": "npm run tslint && tsc",
     "tslint": "tslint --project tsconfig.json -r tslint.json -r ./node_modules/tslint-microsoft-contrib --fix || true"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pimuzzo/rx-i18n"
+  },
+  "keywords": [
+    "react-native",
+    "reactxp",
+    "react",
+    "i18n",
+    "internationalization",
+    "l10n",
+    "localization",
+    "translate",
+  ],
   "dependencies": {
     "@types/react-native": "^0.55.19",
     "browser-locale": "^1.0.3",
