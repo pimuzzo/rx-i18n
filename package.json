@@ -1,6 +1,6 @@
 {
   "name": "reactxp-i18n",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Plugin for ReactXP that provides i18n",
   "author": "Simone Locci <simonelocci88@gmail.com>",
   "license": "MIT",
@@ -27,7 +27,7 @@
     "browser-locale": "^1.0.3",
     "i18n-js": "^3.0.8",
     "react-native-i18n": "^2.0.12",
-    "reactxp": "^1.1.0"
+    "reactxp": "^1.6.1"
   },
   "peerDependencies": {
     "react-dom": "16.2.0",
