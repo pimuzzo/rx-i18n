@@ -20,14 +20,14 @@
     "internationalization",
     "l10n",
     "localization",
-    "translate"
+    "translate",
   ],
   "dependencies": {
-    "@types/react-native": "^0.60.21",
+    "@types/react-native": "^0.55.19",
     "browser-locale": "^1.0.3",
-    "i18n-js": "^3.3.0",
-    "react-native-i18n": "^2.0.15",
-    "reactxp": "^2.0.0-rc.1"
+    "i18n-js": "^3.0.8",
+    "react-native-i18n": "^2.0.12",
+    "reactxp": "^1.1.0"
   },
   "peerDependencies": {
     "react-dom": "16.2.0",
@@ -35,9 +35,9 @@
     "react-native-windows": "^0.51.0"
   },
   "devDependencies": {
-    "tslint": "5.20.0",
-    "tslint-microsoft-contrib": "6.2.0",
-    "typescript": "3.6.4"
+    "tslint": "5.8.0",
+    "tslint-microsoft-contrib": "5.0.0",
+    "typescript": "2.7.2"
   },
   "types": "dist/web/PluginBase.d.ts"
 }
