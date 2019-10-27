@@ -20,7 +20,7 @@
     "internationalization",
     "l10n",
     "localization",
-    "translate",
+    "translate"
   ],
   "dependencies": {
     "@types/react-native": "^0.55.19",
