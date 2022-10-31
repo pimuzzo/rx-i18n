@@ -17,3 +17,13 @@ node_modules
 .vscode
 .DS_STORE
 .idea
+
+# Yarn v2
+.yarn/*
+!.yarn/cache
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
