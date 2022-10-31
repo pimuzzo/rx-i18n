@@ -421,10 +421,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["path-parse", [\
-        ["npm:1.0.5", {\
-          "packageLocation": "./.yarn/cache/path-parse-npm-1.0.5-0ca228c9a3-faa70b7252.zip/node_modules/path-parse/",\
+        ["npm:1.0.7", {\
+          "packageLocation": "./.yarn/cache/path-parse-npm-1.0.7-09564527b7-49abf3d811.zip/node_modules/path-parse/",\
           "packageDependencies": [\
-            ["path-parse", "npm:1.0.5"]\
+            ["path-parse", "npm:1.0.7"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -529,7 +529,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/resolve-patch-5d9663ece3-b7e0748492.zip/node_modules/resolve/",\
           "packageDependencies": [\
             ["resolve", "patch:resolve@npm%3A1.8.1#~builtin<compat/resolve>::version=1.8.1&hash=07638b"],\
-            ["path-parse", "npm:1.0.5"]\
+            ["path-parse", "npm:1.0.7"]\
           ],\
           "linkType": "HARD"\
         }]\
